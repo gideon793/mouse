@@ -1,5 +1,6 @@
 # 0.7.1.1
-- To detect only mouse clicks and not movement and prevent errors in headless setup.
+- Fix for "Segmentation fault" on mouse movement in a headless setup.
+- Used to detect mouse clicks only in a headless Raspberry pi.
 
 
 # 0.7.1
