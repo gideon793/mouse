@@ -1,3 +1,7 @@
+# 0.7.1.1
+- To detect only mouse clicks and not movement and prevent errors in headless setup.
+
+
 # 0.7.1
 
 - Fixed errors and incorrect information on setup.py.
