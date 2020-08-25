@@ -100,10 +100,6 @@ def press(button=LEFT):
     build_device()
     device.write_event(EV_KEY, code_by_button[button], 0x01)
 
-def release(button=LEFT):
-    build_device()
-    device.write_event(EV_KEY, code_by_button[button], 0x00)
-
 def move_relative(x, y):
     build_device()
     # Note relative events are not in terms of pixels, but millimeters.
